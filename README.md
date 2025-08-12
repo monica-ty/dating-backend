@@ -29,7 +29,7 @@ A backend service for an international dating app MVP, built with:
 
 ### Run Locally
 
-````bash
+```bash
 # Start local SQL Server (Azure SQL Edge)
 docker run -e "ACCEPT_EULA=1" -e "MSSQL_SA_PASSWORD=YourStrong!Passw0rd" \
   -p 1433:1433 --name sqledge -d mcr.microsoft.com/azure-sql-edge
@@ -37,12 +37,12 @@ docker run -e "ACCEPT_EULA=1" -e "MSSQL_SA_PASSWORD=YourStrong!Passw0rd" \
 # Start API
 cd src/App.Api
 dotnet run
-
----
+```
 
 ## **2. LICENSE file (MIT License)**
 
 **LICENSE**
+
 ```text
 MIT License
 
@@ -65,4 +65,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-````
+```
