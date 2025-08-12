@@ -1,0 +1,62 @@
+/bin/
+/obj/
+/.vs/
+/.idea/
+*.user
+*.suo
+*.DS_Store
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.sln.ide
+
+# Visual Studio / VS Code settings
+.vs/
+.vscode/
+.idea/
+
+# Build artifacts
+*.dll
+*.exe
+*.app
+*.pdb
+*.cache
+*.log
+*.tmp
+
+# OS-specific junk
+Thumbs.db
+
+# Test results
+TestResults/
+*.trx
+
+# Coverage results
+coverage/
+*.coverage
+*.coveragexml
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Entity Framework Migrations build artifacts
+Migrations/obj/
+
+# Generated files (e.g., Swagger JSON if generated at build)
+wwwroot/swagger/
+
+# Temporary files from tooling
+*.swp
+*.swo
