@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\App.Application\App.Application.csproj" />
     <ProjectReference Include="..\..\shared\Contracts\Contracts.csproj" />
+    <ProjectReference Include="..\App.Auth\App.Auth.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
